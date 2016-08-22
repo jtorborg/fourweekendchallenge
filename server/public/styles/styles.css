@@ -17,10 +17,6 @@ h2 {
   text-align: center;
 }
 
-#taskForm {
-  margin: 10 auto;
-  width:250px;
-}
 
 input[type=text] {
     background-color: #7B68EE;
