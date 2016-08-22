@@ -1,0 +1,28 @@
+*  {
+
+  background-color: #FFEBCD;
+
+}
+
+h1 {
+  font-family: 'Arial', serif;
+  color: indigo;
+  text-align: center;
+
+}
+
+h2 {
+  font-family: 'Arial', serif;
+  color: #7B68EE;
+  text-align: center;
+}
+
+#taskForm {
+  margin: 10 auto;
+  width:250px;
+}
+
+input[type=text] {
+    background-color: #7B68EE;
+    color: white;
+}
