@@ -29,7 +29,7 @@ function getTask() {
                     description: list.list_description,
                     status: list.list_status
                 });
-                //assist from Corey -- note to self -- review more closely
+                //note to self -- review more closely
                 console.log(taskArray);
                 console.log(taskArray[0].id);
                 console.log(taskArray[0].name);
@@ -55,7 +55,7 @@ function submitTask() {
 
   var task = {};
   $.each($('#taskForm').serializeArray(), function (i, field) {
-    task[field.name] = field.value;  //syntax was wrong bonehead move thanks Corey
+    task[field.name] = field.value;  //syntax was wrong
   });
   console.log("TASK:", task);
 
