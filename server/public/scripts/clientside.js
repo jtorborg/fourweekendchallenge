@@ -28,16 +28,24 @@ function getTask() {
                     name: list.list_name,
                     description: list.list_description,
                     status: list.list_status
+
                 });
+                console.log(taskArray);
+                console.log(taskArray[0].id);
+                console.log(taskArray[0].name);
+                console.log(taskArray[0].description);
+                console.log(taskArray[0].status);
+                //still won't append to DOM, not sure why//
+                $("#taskcontainer").append('<div class = "taskappend">' +
+                   taskArray[0].name + " " + taskArray[0].description + '</div>');
                 //note to self -- review more closely
                 console.log(taskArray);
                 console.log(taskArray[0].id);
                 console.log(taskArray[0].name);
                 console.log(taskArray[0].description);
                 console.log(taskArray[0].status);
-                //append to DOM
-                //$(".ownerList").append('<option class = "owner">'
-                //+ owner.first_name + " " + owner.last_name  + '</option>');
+                console.log(taskObject);
+                console.log(list.id);
 
             });
         },
